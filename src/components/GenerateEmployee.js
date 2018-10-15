@@ -1,9 +1,9 @@
 import React from "react";
 
-const GenerateEmployee= ({selectEmployee}) => {
+const GenerateEmployee= ({add}) => {
     return (
         <div className="GenerateEmployee">
-            <button onClick={selectEmployee}>Get employee</button>
+            <button className="search" onClick={add}>Chercher un employer</button>
         </div>
     )
 };
